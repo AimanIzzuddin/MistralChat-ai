@@ -1,0 +1,2 @@
+docker build -t mistral-7b .
+docker run -p 8000:8000 mistral-7b

@@ -1,0 +1,1 @@
+Mistral is a powerful open-source LLM developed for efficient inference. It's designed to be lightweight and accurate, and it supports instruction tuning.

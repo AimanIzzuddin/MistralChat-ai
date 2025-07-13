@@ -1,0 +1,32 @@
+# --- Core Backend ---
+fastapi
+uvicorn
+
+# --- LLM Engine ---
+llama-cpp-python==0.2.32  # CPU/GGUF inference support for Mistral
+
+# --- LangChain Core ---
+langchain>=0.2.0
+langchain-community>=0.0.21
+
+# --- Embeddings (MiniLM, etc.) ---
+sentence-transformers
+huggingface-hub
+
+# --- Vector Store ---
+faiss-cpu
+
+# --- Document Loading ---
+pypdf                  # for PDFs
+python-docx            # optional: DOCX loader
+docx2txt               # optional: plain DOCX parser
+unstructured           # optional: OCR/image/doc parsing
+
+# --- Utilities ---
+tqdm                   # progress bars
+numpy
+scikit-learn
+
+# --- Optional (remove if not needed) ---
+tensorflow==2.15.0     # only if you need to run TF-based models
+streamlit              # only if you're building a web UI
