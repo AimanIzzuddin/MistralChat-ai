@@ -1,7 +1,6 @@
 # 🚀 MistralChat-ai
 
-A short description of what this project does and who it's for.
-
+A LLM from mistral-7B-distilled packed with container environment capable of multiple execution and scalable operation.
 ---
 
 ## 📖 Table of Contents
